@@ -1,7 +1,8 @@
 {
   "package": {
     "dependencies": {
-      "@strapi/plugin-seo": "^1.7.5"
+      "@strapi/plugin-seo": "^1.7.5",
+      "strapi-plugin-populate-deep": "^0.1.2"
     }
   }
 }
