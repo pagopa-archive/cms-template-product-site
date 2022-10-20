@@ -16,9 +16,10 @@
     "body": {
       "type": "richtext"
     },
-    "issequential": {
-      "type": "boolean",
-      "default": false
+    "variant": {
+      "type": "enumeration",
+      "enum": ["grid", "walk"],
+      "default": "grid"
     },
     "items": {
       "displayName": "Griditem",

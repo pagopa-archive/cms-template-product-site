@@ -13,6 +13,10 @@
     "titlemobile": {
       "type": "string"
     },
+    "issequential": {
+      "type": "boolean",
+      "default": false
+    },
     "body": {
       "type": "richtext"
     },
@@ -20,9 +24,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "page": {
       "type": "relation",
@@ -34,9 +36,7 @@
     },
     "target": {
       "type": "enumeration",
-      "enum": [
-        "_blank"
-      ]
+      "enum": ["_blank"]
     },
     "attributes": {
       "type": "string"
